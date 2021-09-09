@@ -1,7 +1,7 @@
 {
-  "name": "webdev",
+  "name": "wonka-conference",
   "version": "1.0.0",
-  "description": "a template for web apps",
+  "description": "a website for wonka conference 2021",
   "main": "gulpfile.js",
   "directories": {
     "test": "test"
