@@ -37,8 +37,16 @@ a {
   color: var(--accent);
 }
 
+.bg-dark {
+  background-color: var(--dark);
+}
+
 .bg-trans {
   background: rgba(220, 220, 220, 0.6);
+}
+
+.bg-pattern {
+  background: url('../images/plus/plus.svg');
 }
 
 .bg-checker {
