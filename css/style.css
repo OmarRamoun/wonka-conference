@@ -45,12 +45,24 @@ a {
   background-color: var(--dark);
 }
 
+.bg-accent {
+  background-color: var(--accent) !important;
+}
+
+.bg-accent:hover {
+  background-color: #f55d4d !important;
+}
+
 .bg-trans {
   background: rgba(220, 220, 220, 0.6);
 }
 
+.bg-semi-trans {
+  background: rgba(225, 225, 225, 0.1) !important;
+}
+
 .bg-pattern {
-  background: url('../images/plus/plus.svg');
+  background-image: url('../images/plus/plus.svg');
 }
 
 .bg-checker {
