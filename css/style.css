@@ -16,3 +16,62 @@
 a {
   cursor: pointer;
 }
+
+.font-coco {
+  font-family: var(--coco);
+}
+
+.font-lato {
+  font-family: var(--lato);
+}
+
+.font-size-1 {
+  font-size: 1.2rem;
+}
+
+.font-size-2 {
+  font-size: 2.1em;
+}
+
+.accent {
+  color: var(--accent);
+}
+
+.bg-trans {
+  background: rgba(220, 220, 220, 0.6);
+}
+
+.bg-checker {
+  background-image: url("../images/patt-bg.svg");
+  background-size: cover;
+  background-position: 0 0;
+}
+
+.bg-img {
+  background-image: linear-gradient(to top, #fff, transparent);
+  height: 100%;
+}
+
+.bg-img::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  filter: grayscale(100%);
+  background-attachment: fixed;
+  background-position: center;
+  background-image: url("../images/bg_img.jpg");
+  opacity: 0.5;
+}
+
+.border-solid {
+  border-style: solid;
+}
+
+.intro {
+  height: 100vh;
+  overflow: hidden;
+  margin-bottom: 20px;;
+}
