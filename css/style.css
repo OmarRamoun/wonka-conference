@@ -29,6 +29,10 @@ a {
   font-size: 1.2rem;
 }
 
+.w-30 {
+  width: 30%;
+}
+
 .font-size-2 {
   font-size: 2.1em;
 }
