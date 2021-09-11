@@ -98,3 +98,18 @@ a {
   height: 100vh;
   overflow: hidden;
 }
+
+.heading {
+  position: relative;
+}
+
+.heading::after {
+  content: "";
+  position: absolute;
+  bottom: -0.9rem;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 13%;
+  height: 0.09rem;
+  background-color: #ec5242;
+}
