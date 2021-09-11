@@ -1,13 +1,12 @@
+@import '../assets/fonts/cocogoose/style.css';
+@import '../assets/fonts/lato/style.css';
+
 :root {
-  --dark: #2f303a;
-  --light-black: #26262e;
-  --accent: #1762a7;
-  --accent-hover: #2180d8;
-  --light: #fff;
-  --light-hover: #adadad;
-  --blue: #3856b0;
-  --red: #b038a0;
-  --purple: #3a38b0;
+  --dark: #272a31;
+  --accent: #ec5242;
+  --light: #d3d3d3;
+  --coco: "COCOGOOSE Regular", arial, sans-serif;
+  --lato: "Lato", arial, sans-serif;
 }
 
 * {
