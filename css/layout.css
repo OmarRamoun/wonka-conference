@@ -5,3 +5,7 @@
 .pt-8 {
   padding-top: 8rem;
 }
+
+.w-small {
+  max-width: 150px;
+}
