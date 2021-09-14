@@ -27,17 +27,27 @@
 </head>
 
 <body>
-  <section class="intro  bg-checker">
-    <header class="container-sm">
-      <nav class="container-sm navbar navbar-expand-md navbar-light bg-custom3 fixed-top">
-        <div class="container-fluid">
+  <section class="intro bg-checker w-100 mx-0">
+    <header class="container-sm mx-0 w-100">
+      <nav class="sub-nav container-sm navbar navbar-expand-md navbar-light fixed-top d-sm-none bg-dark mx-0 mw-100 py-2 d-lg-flex align-items-center justify-content-end px-5">
+        <ul class="d-flex gap-3 mb-0">
+          <li><a href="#"><img class="w-10" src="./images/fb.svg"></a></li>
+          <li><a href="#"><img class="w-10" src="./images/tw.svg"></a></li>
+          <li><a class="text-decoration-none" href="#">English</a></li>
+          <li><a class="text-decoration-none" href="#">My Page</a></li>
+          <li><a class="text-decoration-none" href="#">Logout</a></li>
+        </ul>
+      </nav>
+      <nav class="main-nav container-sm navbar navbar-expand-md navbar-light bg-custom3 fixed-top top-10 mx-0 mw-100 py-lg-3  ">
+        <div class="container-sm">
           <button class="navbar-toggler border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
             <span class="navbar-toggler-icon"></span>
           </button>
+          <img class="d-lg-block d-none position-fixed" src="images/logo.png" alt="" width="130" height="46">
           <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
             <div class="offcanvas-header">
               <a class="navbar-brand" href="#">
-                <img src="images/logo.png" alt="" width="130" height="46">
+                <img class="position-fixed" src="images/logo.png" alt="" width="130" height="46">
               </a>
               <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
             </div>
@@ -51,6 +61,12 @@
                 </li>
                 <li class="nav-item dropdown">
                   <a class="nav-link" href="#">Join</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link" href="#">Sponsor</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link" href="#">News</a>
                 </li>
               </ul>
             </div>
