@@ -7,6 +7,11 @@
   height: 15px;
 }
 
+.m-l-t-10-8 {
+  margin-left: 10rem;
+  margin-top: 8rem;
+}
+
 .active {
   color: var(--accent) !important;
 }
@@ -17,6 +22,10 @@
 
 .offcanvas-body a {
   font-size: large;
+}
+
+.hero h2 {
+  font-size: 3rem;
 }
 
 .offcanvas-body .navbar-nav {
