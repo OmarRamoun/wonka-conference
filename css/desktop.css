@@ -1,0 +1,25 @@
+.top-10 {
+  margin-top: 2.3rem;
+}
+
+.w-10 {
+  width: 15px;
+  height: 15px;
+}
+
+.active {
+  color: var(--accent) !important;
+}
+
+.navbar.main-nav {
+  background-color: #fff !important;
+}
+
+.offcanvas-body a {
+  font-size: large;
+}
+
+.offcanvas-body .navbar-nav {
+  display: flex;
+  gap: 5rem;
+}
