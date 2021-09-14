@@ -7,6 +7,10 @@
   height: 15px;
 }
 
+.w-small {
+  max-width: 300px;
+}
+
 .m-l-t-10-8 {
   margin-left: 10rem;
   margin-right: 10rem;
