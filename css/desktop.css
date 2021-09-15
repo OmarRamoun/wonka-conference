@@ -37,3 +37,7 @@
   display: flex;
   gap: 5rem;
 }
+
+.footer img {
+  width: 10% !important;
+}
