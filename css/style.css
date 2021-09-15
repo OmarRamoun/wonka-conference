@@ -136,6 +136,10 @@ a {
   font-size: 0.1rem;
 }
 
+.fs-20 {
+  font-size: 0.8rem;
+}
+
 .show-image {
   position: relative;
 }
