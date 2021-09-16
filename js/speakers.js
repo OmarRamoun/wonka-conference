@@ -98,7 +98,6 @@ const showSpeakers = (max) => {
 const resize = () => {
   w = window.innerWidth;
   max = (w <= 768) ? 3 : speakers.length;
-  console.log(max);
   showSpeakers(max);
 };
 
