@@ -142,6 +142,8 @@ a {
 
 .show-image {
   position: relative;
+  height: 200px;
+  width: 100%;
 }
 
 .show-image::after {
