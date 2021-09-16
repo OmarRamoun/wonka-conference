@@ -43,11 +43,11 @@
           <button class="navbar-toggler border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <img class="d-lg-block d-none position-fixed" src="images/logo.png" alt="" width="130" height="46">
+          <img onclick="logoClick()" class="logo d-lg-block d-none position-fixed" src="images/logo.png" alt="" width="130" height="46">
           <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
             <div class="offcanvas-header">
-              <a class="navbar-brand mb-sm-5" href="#">
-                <img class="position-fixed" src="images/logo.png" alt="" width="130" height="46">
+              <a class="navbar-brand mb-sm-5" href="./">
+                <img class="logo position-fixed" src="images/logo.png" alt="" width="130" height="46">
               </a>
               <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
             </div>
@@ -181,5 +181,6 @@
 
   <script src="./js/scroll.js"></script>
   <script src="./js/speakers.js"></script>
+  <script src="./js/script.js"></script>
 </body>
 
