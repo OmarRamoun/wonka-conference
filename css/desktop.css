@@ -11,6 +11,10 @@
   max-width: 300px;
 }
 
+.w-5vw {
+  width: 30px !important;
+}
+
 .m-l-t-10-8 {
   margin-left: 10rem;
   margin-right: 10rem;

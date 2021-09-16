@@ -13,3 +13,7 @@
 .w-20 {
   max-width: 20% !important;
 }
+
+.w-5vw {
+  width: 5vw !important;
+}
