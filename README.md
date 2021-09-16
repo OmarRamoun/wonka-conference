@@ -9,7 +9,7 @@
 ![screenshot](images/app_screenshot.png)
 
 | *A Screenshot of the Desktop Version of the Wonka Conference Website.*
-
+****
 ## Built With
 
 - Languages: _**HTML, CSS, JS**_
