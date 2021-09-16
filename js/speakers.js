@@ -3,37 +3,37 @@ const speakersSection = document.querySelector('.speakers .row');
 const showMoreBtn = document.querySelector('.speakers .footer a');
 
 const speakers = [{
-  image: '/images/drDon.jpg',
+  image: './images/drDon.jpg',
   name: 'name of speaker',
   subtitle: 'Lorem ipsum dolor sit amet.',
   desc: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti doloremque atque dignissimos.',
 },
 {
-  image: '/images/drDon.jpg',
+  image: './images/drDon.jpg',
   name: 'name of speaker',
   subtitle: 'Lorem ipsum dolor sit amet.',
   desc: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti doloremque atque dignissimos.',
 },
 {
-  image: '/images/drDon.jpg',
+  image: './images/drDon.jpg',
   name: 'name of speaker',
   subtitle: 'Lorem ipsum dolor sit amet.',
   desc: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti doloremque atque dignissimos.',
 },
 {
-  image: '/images/drDon.jpg',
+  image: './images/drDon.jpg',
   name: 'name of speaker',
   subtitle: 'Lorem ipsum dolor sit amet.',
   desc: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti doloremque atque dignissimos.',
 },
 {
-  image: '/images/drDon.jpg',
+  image: './images/drDon.jpg',
   name: 'name of speaker',
   subtitle: 'Lorem ipsum dolor sit amet.',
   desc: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti doloremque atque dignissimos.',
 },
 {
-  image: '/images/drDon.jpg',
+  image: './images/drDon.jpg',
   name: 'name of speaker',
   subtitle: 'Lorem ipsum dolor sit amet.',
   desc: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti doloremque atque dignissimos.',
