@@ -98,6 +98,7 @@ Give a ⭐️ if you like this project!
 
 - Inspiration
 - My Passion for Programming
+- Original Design by [Cindy Shin](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015)
 
 ## 📝 License
 
