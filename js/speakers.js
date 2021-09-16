@@ -64,7 +64,7 @@ const showSpeakers = (max) => {
     const speakerImage = document.createElement('img');
     speakerImage.classList.add('align-self-start');
     speakerImage.src = speakers[i].image;
-    speakerImage.alt = speakers[i].name;
+    speakerImage.alt = 'image of speaker';
     speakerCard.appendChild(speakerImage);
 
     // Adding speaker info
