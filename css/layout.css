@@ -9,3 +9,7 @@
 .w-small {
   max-width: 150px;
 }
+
+.w-20 {
+  max-width: 20% !important;
+}
