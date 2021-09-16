@@ -53,7 +53,12 @@ const showSpeakers = (max) => {
   for (let i = 0; i < max; i += 1) {
     // Adding container
     const speakerCard = document.createElement('div');
-    speakerCard.classList.add('speaker', 'card', 'd-flex', 'flex-row', 'gap-3', 'align-items-center', 'p-2');
+    speakerCard.classList.add('speaker', 'card', 'd-flex', 'flex-row', 'gap-3', 'align-items-center', 'p-2', 'border-0', 'bg-transparent');
+
+    // Adding bg-checkerboard
+    const speakerBg = document.createElement('div');
+    speakerBg.classList.add('bg-checkerboard');
+    speakerCard.appendChild(speakerBg);
 
     // Adding Image
     const speakerImage = document.createElement('img');
