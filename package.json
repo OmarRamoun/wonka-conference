@@ -7,7 +7,6 @@
     "test": "test"
   },
   "dependencies": {
-    "hint": "^6.1.4",
     "package-lock.json": "^1.0.0",
     "stylelint": "^13.13.1",
     "stylelint-config-standard": "^21.0.0",
@@ -20,7 +19,8 @@
     "eslint-config-airbnb-base": "^14.2.1",
     "eslint-plugin-import": "^2.24.2",
     "gulp": "^3.9.1",
-    "gulp-autoprefixer": "^6.1.0"
+    "gulp-autoprefixer": "^6.1.0",
+    "hint": "^6.1.9"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
