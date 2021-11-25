@@ -1,0 +1,47 @@
+.top-10 {
+  margin-top: 2.3rem;
+}
+
+.w-10 {
+  width: 15px;
+  height: 15px;
+}
+
+.w-small {
+  max-width: 300px;
+}
+
+.w-5vw {
+  width: 30px !important;
+}
+
+.m-l-t-10-8 {
+  margin-left: 10rem;
+  margin-right: 10rem;
+  margin-top: 8rem;
+}
+
+.active {
+  color: var(--accent) !important;
+}
+
+.navbar.main-nav {
+  background-color: #fff !important;
+}
+
+.offcanvas-body a {
+  font-size: large;
+}
+
+.hero h2 {
+  font-size: 2.4rem;
+}
+
+.offcanvas-body .navbar-nav {
+  display: flex;
+  gap: 5rem;
+}
+
+.footer img {
+  width: 10% !important;
+}
