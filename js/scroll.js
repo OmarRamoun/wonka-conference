@@ -4,6 +4,7 @@ const outputStart = 0;
 const OutputEnd = 1;
 const navbar = document.querySelector('.main-nav');
 
+// change the navbar color when scrolling
 window.addEventListener('scroll', () => {
   const y = Math.round(1 + (window.scrollY || window.pageYOffset) / 150);
   const firstMultiplier = (y - inputStart) / (inputEnd - inputStart);
@@ -11,6 +12,7 @@ window.addEventListener('scroll', () => {
   navbar.style.background = `rgba(255, 255, 255, ${opacity})`;
 });
 
+// change the navbar color when scrolling
 for (let i = 0; i < 10; i += 1) {
   const newDiv = document.createElement('div');
   newDiv.classList.add('box');

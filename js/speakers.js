@@ -117,8 +117,10 @@ const toggle = () => {
   return (max);
 };
 
+// resize window on load, and on resize
 window.addEventListener('load', () => { resize(); });
 window.addEventListener('resize', () => { resize(); });
+// Show speakers on click
 showMoreBtn.addEventListener('click', () => {
   showSpeakers(toggle());
 });
