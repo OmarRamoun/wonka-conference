@@ -45,6 +45,10 @@ a {
   background-color: var(--dark);
 }
 
+.bg-white {
+  background-color: #fff;
+}
+
 .bg-accent {
   background-color: var(--accent) !important;
 }
@@ -71,6 +75,16 @@ a {
   background-position: 0 0;
 }
 
+.bg-overlay::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to bottom, transparent, rgba(245, 93, 77, 0.5));
+}
+
 .bg-img {
   background-image: linear-gradient(to top, #fff, transparent);
   height: 100%;
@@ -88,6 +102,10 @@ a {
   background-position: center;
   background-image: url("../images/bg_img.jpg");
   opacity: 0.5;
+}
+
+.border-accent {
+  border: var(--accent);
 }
 
 .border-solid {
@@ -112,4 +130,22 @@ a {
   width: 13%;
   height: 0.09rem;
   background-color: #ec5242;
+}
+
+.fs-7 {
+  font-size: 0.1rem;
+}
+
+.show-image {
+  position: relative;
+}
+
+.show-image::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(182, 24, 24);
 }
