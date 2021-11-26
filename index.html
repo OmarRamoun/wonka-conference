@@ -1,130 +1,182 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="description"
+      content="It has been decided to bring the WONCA 2021 Scientific World Conference fully online to the convenience of your own screen between 22–27 November 2021."
+    />
+    <meta name="robot" content="index,follow" />
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="description"
-  content="It has been decided to bring the WONCA 2021 Scientific World Conference fully online to the convenience of your own screen between 22–27 November 2021.">
-  <meta name="robot" content="index,follow">
+    <!-- stylesheets & assets -->
+    <link rel="stylesheet" href="styles/reset.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/MrRamoun/Wonka-Conference@develop/images/"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/MrRamoun/Wonka-Conference@develop/assets/"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/layout.css" />
 
-  <!-- stylesheets & assets -->
-  <link rel="stylesheet" href="styles/reset.css">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/MrRamoun/Wonka-Conference@develop/images/">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/MrRamoun/Wonka-Conference@develop/assets/">
+    <!-- bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"
+      integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js"
+      integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/"
+      crossorigin="anonymous"
+    ></script>
 
-  <!-- bootstrap -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js" integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous"></script>
+    <title>WONCA World Conference 2021 - Global Family Doctor</title>
+  </head>
 
-  <title>WONCA World Conference 2021 - Global Family Doctor</title>
-</head>
-
-<body>
-  <section class="intro">
-    <header class="container-sm">
-      <div class="wrapper container-sm bg-primary">
-        <img src="./images/menu.png" alt="menu">
-      </div>
-    </header>
-
-    <div class="hero">
-      <div class="wrapper container-sm">
-        <div class="row">
-          <div class="col-sm-6">
-            <h2 class="text-left">
-              23<sup>rd</sup> World Conference Of Family Doctors 2021
-            </h2>
+  <body>
+    <section class="intro">
+      <header class="container-sm">
+        <nav class="container-sm navbar navbar-expand-md navbar-light bg-custom3 fixed-top">
+          <div class="container-fluid">
+            <button class="navbar-toggler border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+              <div class="offcanvas-header">
+                <a class="navbar-brand" href="#">
+                  <img src="images/logo.png" alt="" width="130" height="46">
+                </a>
+                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+              </div>
+              <div class="offcanvas-body">
+                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3 fs-1">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link" href="#">Join</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
           </div>
-          <div class="col-sm-12">
-            <h3 class="text-left">
-              After thoughtful discussions with many Member Organizations as well as with the WONCA Executive, it has become clear that it will not be possible to proceed with an in-person physical WONCA World conference in Abu Dhabi in November 2021.
-            </h3>
-          </div>
-          <div class="col-sm-6">
-            <p class="text-left">
-              2021.10.15(Tue) ~ 16(Thu)
-            </p>
-            <h4>
-              @virtual, due to COVID-19
-            </h4>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+        </nav>
+      </header>
 
-  <section class="program">
-    <div class="wrapper container-sm">
-      <h2>Main Program</h2>
-      <div class="cards">
-        <div class="card">
-          <h3>Lecture</h3>
-          <img src="images/icons/lecture.svg" alt="">
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt incidunt debitis similique assumenda.
-          </p>
-        </div>
-      </div>
-      <div class="footer">
-        <button class="btn btn-custom">Join Conference</button>
-        <a href="#">Learn More Information</a>
-      </div>
-    </div>
-  </section>
-
-  <section class="speakers">
-    <div class="wrapper container-sm">
-      <h2>featured speakers</h2>
-      <div class="grid">
-        <div class="row">
-          <div class="speaker card">
-            <img src="images/plus/plus.svg" alt="">
-            <div class="speaker-info">
-              <h3>name of speaker</h3>
-              <h4>Lorem ipsum dolor sit amet.</h4>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, eveniet!</p>
+      <div class="hero">
+        <div class="wrapper container-sm">
+          <div class="row">
+            <div class="col-sm-6">
+              <h2 class="text-left">
+                23<sup>rd</sup> World Conference Of Family Doctors 2021
+              </h2>
+            </div>
+            <div class="col-sm-12">
+              <h3 class="text-left">
+                After thoughtful discussions with many Member Organizations as
+                well as with the WONCA Executive, it has become clear that it
+                will not be possible to proceed with an in-person physical WONCA
+                World conference in Abu Dhabi in November 2021.
+              </h3>
+            </div>
+            <div class="col-sm-6">
+              <p class="text-left">2021.10.15(Tue) ~ 16(Thu)</p>
+              <h4>@virtual, due to COVID-19</h4>
             </div>
           </div>
         </div>
-        <div class="footer">
-          <a href="#" class="btn btn-primary">more speakers</a>
-        </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <section class="partners">
-    <div class="wrapper container-sm">
-      <h2>Partners</h2>
-    </div>
-    <div class="row">
-      <div class="col-sm-8">
-        <img src="#" alt="">
-        <img src="#" alt="">
-        <img src="#" alt="">
-        <img src="#" alt="">
-        <img src="#" alt="">
-      </div>
-    </div>
-  </section>
-
-  <footer>
-    <div class="wrapper container-sm">
-      <div class="row">
-        <div class="col-sm-8">
-          <img src="images/cc.svg" alt="">
-          <div class="copyrights">
+    <section class="program">
+      <div class="wrapper container-sm">
+        <h2>Main Program</h2>
+        <div class="cards">
+          <div class="card">
+            <h3>Lecture</h3>
+            <img src="images/icons/lecture.svg" alt="" />
             <p>
-              2021 WONCA World Conference. All rights reserved.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt
+              incidunt debitis similique assumenda.
             </p>
           </div>
         </div>
+        <div class="footer">
+          <button class="btn btn-custom">Join Conference</button>
+          <a href="#">Learn More Information</a>
+        </div>
       </div>
-    </div>
-  </footer>
-</body>
+    </section>
 
+    <section class="speakers">
+      <div class="wrapper container-sm">
+        <h2>featured speakers</h2>
+        <div class="grid">
+          <div class="row">
+            <div class="speaker card">
+              <img src="images/plus/plus.svg" alt="" />
+              <div class="speaker-info">
+                <h3>name of speaker</h3>
+                <h4>Lorem ipsum dolor sit amet.</h4>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Aliquid, eveniet!
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="footer">
+            <a href="#" class="btn btn-primary">more speakers</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="partners">
+      <div class="wrapper container-sm">
+        <h2>Partners</h2>
+        <div class="row">
+          <div class="col-sm-8">
+            <img src="#" alt="" />
+            <img src="#" alt="" />
+            <img src="#" alt="" />
+            <img src="#" alt="" />
+            <img src="#" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="wrapper container-sm">
+        <div class="row">
+          <div class="col-sm-8">
+            <img src="images/cc.svg" alt="" />
+            <div class="copyrights">
+              <p>2021 WONCA World Conference. All rights reserved.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
 </html>
