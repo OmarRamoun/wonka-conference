@@ -29,6 +29,10 @@ a {
   font-size: 1.2rem;
 }
 
+.w-30 {
+  width: 30%;
+}
+
 .font-size-2 {
   font-size: 2.1em;
 }
@@ -37,8 +41,28 @@ a {
   color: var(--accent);
 }
 
+.bg-dark {
+  background-color: var(--dark);
+}
+
+.bg-accent {
+  background-color: var(--accent) !important;
+}
+
+.bg-accent:hover {
+  background-color: #f55d4d !important;
+}
+
 .bg-trans {
   background: rgba(220, 220, 220, 0.6);
+}
+
+.bg-semi-trans {
+  background: rgba(225, 225, 225, 0.1) !important;
+}
+
+.bg-pattern {
+  background-image: url('../images/plus/plus.svg');
 }
 
 .bg-checker {
@@ -73,5 +97,19 @@ a {
 .intro {
   height: 100vh;
   overflow: hidden;
-  margin-bottom: 20px;;
+}
+
+.heading {
+  position: relative;
+}
+
+.heading::after {
+  content: "";
+  position: absolute;
+  bottom: -0.9rem;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 13%;
+  height: 0.09rem;
+  background-color: #ec5242;
 }
