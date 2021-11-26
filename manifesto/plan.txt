@@ -2,22 +2,20 @@
 * if it can be done through a third-party, it should be done through a 3rd party
 
 0) lay-ground
-	1- list all requirements.
-	2- Come with your own ideas and features & list them.
-	3- check how others implement that.
+	1- list all requirements. [x]
+	2- Come with your own ideas and features & list them. [x]
+	3- check how others implement that.[x]
 	4- decide if your gonna:
-		- rely on 3-rd party service.
-		- use an api of a 3-rd party service.
-		- do the whole thing on your own from scratch.
+		- rely on 3-rd party service : false
+		- use an api of a 3-rd party service: false
+		- do the whole thing on your own from scratch. true
 
 1) 0-phase
-	1- what is product: webapp, App
+	1- what is product: website, App
 	2- what do we want to deliver:
-		"this is a portfolio webapp",
-		"this is a modern minimal skeumorphic webapp",
-		"simple to use"
-	3- what do we stand for: "simplicity"
-	4- what is new: "the most minimal webapp in the world (currently)"
+		"this is a conference website"
+	3- what do we stand for: "clearniness"
+	4- what is new: "nothing, really, want it to be traditional"
 	5- how to make it alive: "through cool animations"
 	6- (audit): [ ]
 
@@ -42,7 +40,7 @@
 	9- (audit): [ ]
 
 4) coding
-		1- user :all-previous: as guide
+	1- user :all-previous: as guide
 	2- use "setup project guide" to create a new project
 	3- add designs and prepration material to the manifesto
 	4- add a checklist for project requirements

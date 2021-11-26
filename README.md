@@ -2,28 +2,27 @@
 
 <!-- Feel Free to Add, Update, Delete Any Section you find needs so -->
 
-# Project Name
+# Wonka Conference Website
 
-> One paragraph statement about the project.
+> Wonka Converence 2021 Made with Vanilla HTML5, CSS3, & JS. The Website Contains A Homepage With Information About The Main Program Of The Conference Speakers And Partners And An About Page With Information About The Conference.
 
 ![screenshot](images/app_screenshot.png)
 
-| *Additional description about the project and its features.*
+| *A Screenshot of the Desktop Version of the Wonka Conference Website.*
 
 ## Built With
 
-- Languages: _**HTML, CSS**_
-- Frameworks: _**N/A**_
+- Languages: _**HTML, CSS, JS**_
+- Frameworks: _**Bootstrap**_
 - Technologies used: _**GIT, GITHUB, LINTERS**_
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://ramoun.me/Wonka-Conference)
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
+**Start by cloning the repo and setup the gulpfile + linters.**
 
 To get a local copy up and running follow these simple example steps.
 
@@ -73,8 +72,6 @@ To get a local copy up and running follow these simple example steps.
 - run **gulp**
   - **Run** `gulp <name-of-task>` on the root of your directory of your project.
 
-### Deployment
-
 ## Authors
 
 <!-- Only Change Username for Different Accounts -->
@@ -87,17 +84,11 @@ To get a local copy up and running follow these simple example steps.
  **Twitter** | [![@ramoun16](https://img.shields.io/twitter/follow/ramoun16?label=ramoun16&style=social)](https://twitter.com/ramoun16)
  **LinkdIn** | [![Linkedin Badge](https://img.shields.io/badge/-Ramoun-blue?style=social&logo=Linkedin&logoColor=blue&link=https://www.linkedin.com/in/ramoun)](https://www.linkedin.com/in/ramoun/)
 
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/linkedinhandle)
-
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/MrRamoun/WEBDEV/issues).
+Feel free to check the [issues page](https://github.com/MrRamoun/Wonka-Conference/issues).
 
 ## Show your support
 
@@ -105,9 +96,9 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
 - Inspiration
-- etc
+- My Passion for Programming
+- Original Design by [Cindy Shin](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015)
 
 ## 📝 License
 
