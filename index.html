@@ -15,6 +15,7 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/MrRamoun/Wonka-Conference@develop/assets/">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" type="text/css" media="all and (min-width: 700px)" href="css/desktop.css" />
 
   <!-- bootstrap -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
@@ -26,17 +27,27 @@
 </head>
 
 <body>
-  <section class="intro  bg-checker">
-    <header class="container-sm">
-      <nav class="container-sm navbar navbar-expand-md navbar-light bg-custom3 fixed-top">
-        <div class="container-fluid">
+  <section class="intro bg-checker w-100 mx-0">
+    <header class="container-sm mx-0 w-100">
+      <nav class="sub-nav container-sm navbar navbar-expand-md navbar-light fixed-top d-none bg-dark mx-0 mw-100 py-2 d-md-flex align-items-center justify-content-end px-5">
+        <ul class="d-flex gap-3 mb-0">
+          <li><a href="#"><img class="w-10" src="./images/fb.svg"></a></li>
+          <li><a href="#"><img class="w-10" src="./images/tw.svg"></a></li>
+          <li><a class="text-decoration-none" href="#">English</a></li>
+          <li><a class="text-decoration-none" href="#">My Page</a></li>
+          <li><a class="text-decoration-none" href="#">Logout</a></li>
+        </ul>
+      </nav>
+      <nav class="main-nav container-sm navbar navbar-expand-md navbar-light bg-custom3 fixed-top top-10 mx-0 mw-100 py-lg-3  ">
+        <div class="container-sm">
           <button class="navbar-toggler border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
             <span class="navbar-toggler-icon"></span>
           </button>
+          <img class="d-lg-block d-none position-fixed" src="images/logo.png" alt="" width="130" height="46">
           <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
             <div class="offcanvas-header">
-              <a class="navbar-brand" href="#">
-                <img src="images/logo.png" alt="" width="130" height="46">
+              <a class="navbar-brand mb-sm-5" href="#">
+                <img class="position-fixed" src="images/logo.png" alt="" width="130" height="46">
               </a>
               <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
             </div>
@@ -46,10 +57,16 @@
                   <a class="nav-link active" aria-current="page" href="#">Home</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">About</a>
+                  <a class="nav-link" href="./about/">About</a>
                 </li>
                 <li class="nav-item dropdown">
                   <a class="nav-link" href="#">Join</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link" href="#">Sponsor</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link" href="#">News</a>
                 </li>
               </ul>
             </div>
@@ -58,20 +75,20 @@
       </nav>
     </header>
 
-    <div class="hero pt-8 bg-img">
+    <div class="hero pt-8 m-l-t-10-8 bg-img">
       <div class="wrapper container-sm position-relative">
         <div class="row">
-          <div class="col-sm-6">
+          <div class="col-sm-12 col-md-12">
             <h2 class="text-left font-coco font-size-2 text-uppercase accent">
               23<sup>rd</sup> World Conference Of Family Doctors 2021
             </h2>
           </div>
-          <div class="col-sm-12">
+          <div class="col-sm-12 col-lg-6">
             <h3 class="text-left font-lato fs-6 p-3 border-white border-2 bg-trans mt-2 mb-3 border-solid">
               After thoughtful discussions with many Member Organizations as well as with the WONCA Executive, it has become clear that it will not be possible to proceed with an in-person physical WONCA World conference in Abu Dhabi in November 2021.
             </h3>
           </div>
-          <div class="col-sm-6">
+          <div class="col-sm-6 col-lg-12">
             <p class="text-left font-coco fs-3 fw-bold lh-1">
               2021.10.15(Tue) ~ 16(Thu)
             </p>
@@ -87,32 +104,32 @@
   <section class="program bg-dark bg-pattern py-5">
     <div class="wrapper container-sm">
       <h2 class="heading text-white text-center mb-5">Main Program</h2>
-      <div class="cards d-flex flex-column gap-3">
-        <div class="card bg-semi-trans d-flex flex-row gap-3 align-items-center p-3">
+      <div class="cards d-flex flex-column flex-md-row gap-3">
+        <div class="card bg-semi-trans d-flex flex-row flex-md-column gap-3 align-items-center p-3">
           <img class="w-30" src="images/icons/lecture.svg" alt="">
           <h3 class="text-bold accent mb-0">Lecture</h3>
           <p class="text-light mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt incidunt debitis.
           </p>
         </div>
-        <div class="card bg-semi-trans d-flex flex-row gap-3 align-items-center p-3">
+        <div class="card bg-semi-trans d-flex flex-row flex-md-column gap-3 align-items-center p-3">
           <img class="w-30" src="images/icons/lecture.svg" alt="">
           <h3 class="text-bold accent mb-0">Lecture</h3>
           <p class="text-light mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt incidunt debitis.
           </p>
         </div>
-        <div class="card bg-semi-trans d-flex flex-row gap-3 align-items-center p-3">
+        <div class="card bg-semi-trans d-flex flex-row flex-md-column gap-3 align-items-center p-3">
           <img class="w-30" src="images/icons/lecture.svg" alt="">
           <h3 class="text-bold accent mb-0">Lecture</h3>
           <p class="text-light mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt incidunt debitis.
           </p>
         </div>
-        <div class="card bg-semi-trans d-flex flex-row gap-3 align-items-center p-3">
+        <div class="card bg-semi-trans d-flex flex-row flex-md-column gap-3 align-items-center p-3">
           <img class="w-30" src="images/icons/lecture.svg" alt="">
           <h3 class="text-bold accent mb-0">Lecture</h3>
           <p class="text-light mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt incidunt debitis.
           </p>
         </div>
-        <div class="card bg-semi-trans d-flex flex-row gap-3 align-items-center p-3">
+        <div class="card bg-semi-trans d-flex flex-row flex-md-column gap-3 align-items-center p-3">
           <img class="w-30" src="images/icons/lecture.svg" alt="">
           <h3 class="text-bold accent mb-0">Lecture</h3>
           <p class="text-light mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt incidunt debitis.
@@ -129,13 +146,27 @@
   <section class="speakers py-5">
     <div class="wrapper container-sm">
       <h2 class="heading text-dark text-center text-capitalize mb-5">featured speakers</h2>
-      <div class="grid">
-        <div class="speaker card d-flex flex-row gap-3 align-items-center p-2">
-          <img class="w-100 align-self-stretch" src="images/drDon.jpg" alt="">
-          <div class="speaker-info">
-            <h3 class="fw-bold text-capitalize">name of speaker</h3>
-            <h4 class="accent fs-6 fst-italic text-left">Lorem ipsum dolor sit amet.</h4>
-            <p class="fs-6 mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, eveniet!</p>
+      <div class="d-grid gap-3">
+        <div class="row">
+          <div class="col-left col-sm-6 col-md-12 col-lg-6">
+            <div class="speaker card d-flex flex-row gap-3 align-items-center p-2">
+              <img class=" align-self-stretch" src="images/drDon.jpg" alt="">
+              <div class="speaker-info">
+                <h3 class="fw-bold text-capitalize">name of speaker</h3>
+                <h4 class="accent fs-6 fst-italic text-left">Lorem ipsum dolor sit amet.</h4>
+                <p class="fs-6 mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, eveniet!</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-right col-sm-6 col-md-12 col-lg-6">
+            <div class="speaker card d-flex flex-row gap-3 align-items-center p-2">
+              <img class=" align-self-stretch" src="images/drDon.jpg" alt="">
+              <div class="speaker-info">
+                <h3 class="fw-bold text-capitalize">name of speaker</h3>
+                <h4 class="accent fs-6 fst-italic text-left">Lorem ipsum dolor sit amet.</h4>
+                <p class="fs-6 mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, eveniet!</p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -148,17 +179,17 @@
   <section class="partners bg-dark py-5">
     <div class="wrapper container-sm">
       <h2 class="heading text-light text-center text-capitalize mb-5">Partners</h2>
-        <div class="d-flex gap-2 justify-content-center align-items-center">
-          <img class="w-50" src="images/em.jpg" alt="">
-          <img class="w-50" src="images/wonca.svg" alt="">
+        <div class="d-flex flex-md-row flex-sm-column gap-2 justify-content-center align-items-center">
+          <img class="w-small" src="images/em.jpg" alt="">
+          <img class="w-small" src="images/wonca.svg" alt="">
         </div>
     </div>
   </section>
 
-  <footer class="px-2 py-4 d-flex gap-3 align-items-center">
+  <footer class="footer px-2 py-4 d-flex gap-3 align-items-center">
     <img class="w-50 flex-1" src="images/cc.svg" alt="">
     <div class="copyrights flex-grow-3 flex-shrink-3 w-50">
-      <p>
+      <p class="mb-0">
         2021 WONCA World Conference. All rights reserved.
       </p>
     </div>
