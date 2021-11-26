@@ -1,13 +1,12 @@
+@import '../assets/fonts/cocogoose/style.css';
+@import '../assets/fonts/lato/style.css';
+
 :root {
-  --dark: #2f303a;
-  --light-black: #26262e;
-  --accent: #1762a7;
-  --accent-hover: #2180d8;
-  --light: #fff;
-  --light-hover: #adadad;
-  --blue: #3856b0;
-  --red: #b038a0;
-  --purple: #3a38b0;
+  --dark: #272a31;
+  --accent: #ec5242;
+  --light: #d3d3d3;
+  --coco: "COCOGOOSE Regular", arial, sans-serif;
+  --lato: "Lato", arial, sans-serif;
 }
 
 * {
@@ -16,4 +15,101 @@
 
 a {
   cursor: pointer;
+}
+
+.font-coco {
+  font-family: var(--coco);
+}
+
+.font-lato {
+  font-family: var(--lato);
+}
+
+.font-size-1 {
+  font-size: 1.2rem;
+}
+
+.w-30 {
+  width: 30%;
+}
+
+.font-size-2 {
+  font-size: 2.1em;
+}
+
+.accent {
+  color: var(--accent);
+}
+
+.bg-dark {
+  background-color: var(--dark);
+}
+
+.bg-accent {
+  background-color: var(--accent) !important;
+}
+
+.bg-accent:hover {
+  background-color: #f55d4d !important;
+}
+
+.bg-trans {
+  background: rgba(220, 220, 220, 0.6);
+}
+
+.bg-semi-trans {
+  background: rgba(225, 225, 225, 0.1) !important;
+}
+
+.bg-pattern {
+  background-image: url('../images/plus/plus.svg');
+}
+
+.bg-checker {
+  background-image: url("../images/patt-bg.svg");
+  background-size: cover;
+  background-position: 0 0;
+}
+
+.bg-img {
+  background-image: linear-gradient(to top, #fff, transparent);
+  height: 100%;
+}
+
+.bg-img::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  filter: grayscale(100%);
+  background-attachment: fixed;
+  background-position: center;
+  background-image: url("../images/bg_img.jpg");
+  opacity: 0.5;
+}
+
+.border-solid {
+  border-style: solid;
+}
+
+.intro {
+  height: 100vh;
+  overflow: hidden;
+}
+
+.heading {
+  position: relative;
+}
+
+.heading::after {
+  content: "";
+  position: absolute;
+  bottom: -0.9rem;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 13%;
+  height: 0.09rem;
+  background-color: #ec5242;
 }
