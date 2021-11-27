@@ -1,4 +1,4 @@
-const logo = document.querySelector('.logo');
+const logo = document.querySelector('#logo');
 
 const logoClick = () => {
   logo.style.cursor = 'pointer';
@@ -6,3 +6,5 @@ const logoClick = () => {
     window.location.href = '/index.html';
   });
 };
+
+logo.addEventListener('click', logoClick);
