@@ -1,13 +1,13 @@
-Paradigm: OOP
+Paradigm: Procedural
 Tools:
     - lingos: html, css, js
+    - frameworks: bootstrap
     - IDEs: VSCode, CMDER
-    - browsers: Chrome
+    - browsers: Firefox
     - docs: w3schools, html_bp, css_bp, js_bp
     - SCMs: git, github
     - OS: windows_7
 
 Concepts:
     - general: divide_and_conquer
-    - oop: TOE
     - problem_solving: 5s-problem-solving-technique
